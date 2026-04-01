@@ -10,7 +10,7 @@ source:
   sha256: 4caa8838a7ee628fa12b82e7c6d6ea64e6d0e0ef66d601d23a8877393869fbde
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   # Prevent nodejs run_exports from pinning to a specific major version;
   # pure-JS packages work with any nodejs >=20.

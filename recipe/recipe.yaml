@@ -15,8 +15,6 @@ source:
 build:
   number: 0
   noarch: generic
-  ignore_run_exports_from:
-    - nodejs
 
 requirements:
   host:

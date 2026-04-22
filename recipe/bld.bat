@@ -26,12 +26,12 @@ if not exist "%PREFIX%\Scripts" mkdir "%PREFIX%\Scripts"
 (
   echo @echo off
   echo SET "DIR=%%~dp0.."
-  echo node "%%DIR%%\lib\node_modules\bmad-method\tools\bmad-npx-wrapper.js" %%*
+  echo node "%%DIR%%\lib\node_modules\bmad-method\tools\installer\bmad-cli.js" %%*
 ) > "%PREFIX%\Scripts\bmad.bat"
 
 :: Create bmad-method.bat wrapper
 (
   echo @echo off
   echo SET "DIR=%%~dp0.."
-  echo node "%%DIR%%\lib\node_modules\bmad-method\tools\bmad-npx-wrapper.js" %%*
+  echo node "%%DIR%%\lib\node_modules\bmad-method\tools\installer\bmad-cli.js" %%*
 ) > "%PREFIX%\Scripts\bmad-method.bat"

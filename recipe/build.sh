@@ -26,7 +26,7 @@ mkdir -p "${PREFIX}/bin"
 cat > "${PREFIX}/bin/bmad" << 'WRAPPER'
 #!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-exec node "${SCRIPT_DIR}/../lib/node_modules/bmad-method/tools/bmad-npx-wrapper.js" "$@"
+exec node "${SCRIPT_DIR}/../lib/node_modules/bmad-method/tools/installer/bmad-cli.js" "$@"
 WRAPPER
 chmod +x "${PREFIX}/bin/bmad"
 
@@ -34,6 +34,6 @@ chmod +x "${PREFIX}/bin/bmad"
 cat > "${PREFIX}/bin/bmad-method" << 'WRAPPER'
 #!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-exec node "${SCRIPT_DIR}/../lib/node_modules/bmad-method/tools/bmad-npx-wrapper.js" "$@"
+exec node "${SCRIPT_DIR}/../lib/node_modules/bmad-method/tools/installer/bmad-cli.js" "$@"
 WRAPPER
 chmod +x "${PREFIX}/bin/bmad-method"

@@ -11,14 +11,13 @@ Summary: AI-powered agile development framework with specialized AI agent person
 
 Development: https://github.com/bmad-code-org/BMAD-METHOD
 
-Documentation: https://bmad.io
+Documentation: https://bmad.io/
 
 BMAD-METHOD (Breakthrough Method for Agile AI-driven Development) is an
 AI-driven agile development framework providing 12+ specialized AI agent
 personas (architect, developer, product manager, QA, etc.) and structured
 workflows across the full software development lifecycle. It supports
 scale-adaptive intelligence for projects from bug fixes to enterprise systems.
-
 
 Current build status
 ====================
@@ -154,5 +153,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@killua156](https://github.com/killua156/)
 * [@rxm7706](https://github.com/rxm7706/)
 
